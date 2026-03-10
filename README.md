@@ -29,6 +29,16 @@ If FAISS is enabled, similarity search is accelerated using a vector index.
 
 ---
 
+## 📸 Demo Screenshots
+
+### Add a note
+![Add a note](assets/ui-add-note.png)
+
+### Search results
+![Search results](assets/ui-search-results.png)
+
+---
+
 ## 🛠 Tech Stack
 
 - Python 3.11
