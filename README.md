@@ -31,8 +31,8 @@ If FAISS is enabled, similarity search is accelerated using a vector index.
 
 <h2>📸 Demo Screenshots</h2>
 <p>
-  <img src="assets/ui-add-note.png" width="49%" />
-  <img src="assets/ui-search-results.png" width="49%" />
+  <img src="assets/ui_add_note.png" width="49%" />
+  <img src="assets/ui_search_notes.png" width="49%" />
 </p>
 
 ---
