@@ -1,18 +1,14 @@
-# HF Semantic Search
+# Python / venv
+.venv/
+venv/
+__pycache__/
+*.pyc
 
-Semantic search system using Hugging Face sentence-transformers.
+# Model artifacts (do not push)
+training/finetuned_model/
+backend/embeddings.npy
+backend/faiss.index
+backend/notes.json
 
-## Features
-- Add notes
-- Semantic similarity search
-- Fine-tuned transformer model
-- FastAPI backend
-- Frontend UI
-
-## Setup
-
-```bash
-python -m venv .venv
-source .venv/bin/activate  # or .\.venv\Scripts\Activate.ps1 on Windows
-pip install -r requirements.txt
-uvicorn backend.app:app --reload
+# Hugging Face cache
+.cache/
