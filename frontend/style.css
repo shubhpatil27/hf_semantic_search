@@ -1,0 +1,11 @@
+body { font-family: system-ui, Arial; margin: 0; background: #0b0f19; color: #fff; }
+.wrap { max-width: 900px; margin: 40px auto; padding: 0 16px; }
+h1 { margin: 0; }
+.sub { color: rgba(255,255,255,0.7); margin-top: 6px; }
+.card { margin-top: 16px; padding: 16px; border-radius: 14px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); }
+textarea { width: 100%; min-height: 100px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.25); color: #fff; padding: 10px; }
+input { width: 100%; border-radius: 12px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.25); color: #fff; padding: 10px; }
+button { margin-top: 10px; padding: 10px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.15); background: rgba(124,92,255,0.9); color: #fff; font-weight: 700; cursor: pointer; }
+.msg { margin-top: 8px; color: rgba(255,255,255,0.7); font-size: 13px; }
+.result { padding: 12px; border-radius: 12px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.10); margin-top: 10px; }
+.score { color: rgba(255,255,255,0.65); font-size: 12px; margin-top: 6px; }

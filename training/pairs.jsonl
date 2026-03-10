@@ -1,0 +1,50 @@
+{"query": "how do transformers work", "note": "Transformers use self-attention to model relationships between tokens."}
+{"query": "what is self attention", "note": "Self-attention allows transformers to weigh importance of different words in a sentence."}
+{"query": "how to train cnn", "note": "Convolutional neural networks are trained using backpropagation and gradient descent."}
+{"query": "how to improve cnn accuracy", "note": "Transfer learning and data augmentation help improve CNN performance."}
+{"query": "what is transfer learning", "note": "Transfer learning reuses pretrained models and fine-tunes them for new tasks."}
+{"query": "what is fine tuning", "note": "Fine-tuning adjusts pretrained weights using task-specific training data."}
+{"query": "how to run fastapi server", "note": "FastAPI applications are commonly served using Uvicorn ASGI server."}
+{"query": "how to start uvicorn", "note": "Uvicorn runs FastAPI apps using command uvicorn app:app --reload."}
+{"query": "what is cosine similarity", "note": "Cosine similarity measures the angle between two embedding vectors."}
+{"query": "how semantic search works", "note": "Semantic search retrieves results based on meaning using vector embeddings."}
+{"query": "what are embeddings", "note": "Embeddings convert text into numerical vectors that capture semantic meaning."}
+{"query": "how huggingface transformers work", "note": "Hugging Face provides pretrained transformer models for NLP tasks."}
+{"query": "what is bert", "note": "BERT is a transformer model designed for natural language understanding tasks."}
+{"query": "how to tokenize text", "note": "Tokenization converts raw text into tokens for transformer model input."}
+{"query": "difference between cnn and transformer", "note": "CNNs work well for images while transformers excel in NLP tasks."}
+{"query": "how to fine tune huggingface model", "note": "Fine-tuning Hugging Face models uses Trainer API with custom datasets."}
+{"query": "how to compute similarity between sentences", "note": "Sentence embeddings can be compared using cosine similarity to measure similarity."}
+{"query": "how to use sentence transformers", "note": "Sentence transformers generate embeddings for semantic similarity tasks."}
+{"query": "how to search notes by meaning", "note": "Semantic search compares query embeddings with note embeddings to find relevant notes."}
+{"query": "how to add notes in semantic search", "note": "Notes are stored as text and converted into embeddings for retrieval."}
+{"query": "how to rebuild embedding index", "note": "Embedding index must be rebuilt whenever notes or model changes."}
+{"query": "what is faiss", "note": "FAISS is a library for fast similarity search over vector embeddings."}
+{"query": "why use faiss", "note": "FAISS accelerates nearest neighbor search for large embedding datasets."}
+{"query": "what is open set detection", "note": "Open set detection allows models to reject inputs outside known classes."}
+{"query": "why models misclassify unseen data", "note": "Models trained on limited classes force predictions even for unseen inputs."}
+{"query": "what is overfitting", "note": "Overfitting occurs when a model learns training data patterns too specifically and fails to generalize."}
+{"query": "how to prevent overfitting", "note": "Regularization, dropout, and data augmentation help prevent overfitting."}
+{"query": "what is dropout", "note": "Dropout randomly disables neurons during training to improve generalization."}
+{"query": "what is batch normalization", "note": "Batch normalization stabilizes neural network training by normalizing layer inputs."}
+{"query": "how to evaluate classification model", "note": "Accuracy, precision, recall, and F1-score are used to evaluate classifiers."}
+{"query": "what is confusion matrix", "note": "Confusion matrix shows prediction counts across actual vs predicted classes."}
+{"query": "how to deploy ml model", "note": "Machine learning models are deployed using APIs like FastAPI or Flask."}
+{"query": "how to create api for model", "note": "FastAPI can wrap ML models into REST APIs for inference."}
+{"query": "how to send request to api", "note": "Frontend applications send HTTP requests to backend APIs for predictions."}
+{"query": "how frontend connects to backend", "note": "Frontend communicates with backend using fetch or AJAX HTTP requests."}
+{"query": "how to build full stack ml app", "note": "Full stack ML apps combine model training, backend APIs, and frontend interfaces."}
+{"query": "what is training epoch", "note": "An epoch is one full pass of training data through the model."}
+{"query": "what is learning rate", "note": "Learning rate controls how much model weights update during training."}
+{"query": "what optimizer does", "note": "Optimizers adjust model weights to minimize loss during training."}
+{"query": "what is loss function", "note": "Loss function measures difference between predictions and actual labels."}
+{"query": "how backpropagation works", "note": "Backpropagation computes gradients to update neural network weights."}
+{"query": "what is gradient descent", "note": "Gradient descent updates model parameters to minimize loss function."}
+{"query": "how gpu helps training", "note": "GPUs accelerate deep learning by parallelizing matrix computations."}
+{"query": "what is cuda", "note": "CUDA is NVIDIA's platform that enables GPU acceleration for deep learning."}
+{"query": "difference between cpu and gpu training", "note": "GPU training is faster because it performs parallel tensor operations."}
+{"query": "what is tokenizer in transformers", "note": "Tokenizer converts text into token IDs compatible with transformer models."}
+{"query": "why normalization is needed", "note": "Normalization scales inputs to match the distribution expected by pretrained models."}
+{"query": "what is semantic similarity", "note": "Semantic similarity measures how close meanings of two sentences are."}
+{"query": "what is retrieval augmented generation", "note": "RAG combines semantic search with language models to answer questions using documents."}
+{"query": "how chatgpt retrieves context", "note": "ChatGPT-like systems use embeddings and vector search to retrieve relevant context."}
