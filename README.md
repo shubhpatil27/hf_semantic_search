@@ -37,6 +37,44 @@ If FAISS is enabled, similarity search is accelerated using a vector index.
 
 ---
 
+---
+
+## 📚 What I Learned
+
+Building this project helped me understand:
+
+- How transformer-based sentence embeddings work
+- The difference between keyword search and semantic search
+- How cosine similarity compares embedding vectors
+- How to fine-tune a Sentence Transformer using custom similarity pairs
+- How to serve ML models using FastAPI
+- How to cache embeddings and rebuild vector indexes
+- How FAISS accelerates similarity search for larger datasets
+- How to structure and deploy a full-stack ML application
+- How to manage dependencies and version control with Git and GitHub
+
+---
+
+## ⚠️ Challenges Faced
+
+- Managing large model files in GitHub
+- Handling virtual environments correctly
+- Understanding embedding normalization
+- Ensuring embeddings are rebuilt after model fine-tuning
+- Debugging path and environment issues
+
+---
+
+## 🚀 Future Improvements
+
+- Add negative training pairs for better fine-tuning
+- Implement confidence thresholding
+- Deploy the app publicly
+- Add user authentication and persistent storage
+- Push finetuned model to Hugging Face Hub
+
+---
+
 ## 🛠 Tech Stack
 
 - Python 3.11
